@@ -13,4 +13,4 @@ const myMusic = music.map((person) => {
     `
 });
 
-document.body.innerHTML = myMusic;
+document.body.innerHTML = myMusic.join('');
